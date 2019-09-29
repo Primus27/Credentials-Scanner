@@ -1,4 +1,4 @@
-![](readme_files/banner.png)
+![](readme_files/Banner.png)
 
 # Credentials Scanner
 
