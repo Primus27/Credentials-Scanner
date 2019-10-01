@@ -124,10 +124,10 @@ def format_credentials(credentials_dict):
         for password in value:
             # Format the credential
             if output_path_flag:
-                cred_combination = "{u}:{p}:({f})".format(u=key, p=password[0],
+                cred_combination = "{u}::{p}::{f}".format(u=key, p=password[0],
                                                           f=password[1])
             else:
-                cred_combination = "{u}:{p}".format(u=key, p=password[0])
+                cred_combination = "{u}::{p}".format(u=key, p=password[0])
 
             # Add the formatted credential to the dictionary
             formatted_creds.append(cred_combination)

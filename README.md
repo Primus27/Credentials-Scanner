@@ -108,3 +108,6 @@
 #### Version 1.1 - CLI 
  - Added CLI menu
  - Custom filename for output
+ 
+##### Small Update
+ - Changed formatting for results to _user_::_pass_::_file_
