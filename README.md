@@ -16,8 +16,8 @@
 
 ## Requirements and Installation
  - [Python 3.x](https://www.python.org/)
- - Windows (tested), Mac (untested), Linux (untested)
- - Install all dependencies from the requirements.txt file. `pip install -r requirements.txt`
+ - Windows (tested), Linux (tested), Mac (untested)
+ - Install all dependencies from the requirements.txt file. `pip3 install -r requirements.txt`
 
 ## Arguments
 #### Required arguments:
@@ -80,7 +80,7 @@
     - Display program version
 
 ## Usage
- - Run 'scanner.py' in terminal (i.e. command prompt) with arguments (see above)
+ - Run 'scanner.py' in terminal (i.e. command prompt/terminal) with arguments (see above)
  - Results are output to a file in format:
     - _username_:_password_:(_file_location_)
     - _keyword_:_value_:(_file_location_)
@@ -103,11 +103,18 @@
     - Does not have to contain 'username' or 'password' via aliases
     - Search for words following specific keywords
  - Output results to file
-    - _username_:_password_:(_file_location_)
+    - _username_::_password_::(_file_location_)
     
 #### Version 1.1 - CLI 
  - Added CLI menu
  - Custom filename for output
  
-##### Small Update
+##### Version 1.2 - Small Update
  - Changed formatting for results to _user_::_pass_::_file_
+ 
+##### Version 1.3 - Unix compatibility
+  - Updated requirements.txt for Unix support
+  - Error testing in Unix
+
+## Planned features:
+ - Word list (file) input for username, password and search terms

@@ -2,7 +2,6 @@
 Title: Search files and folders for username, password combinations.
     Output results to a file in format username:password:file_found
 Author: Primus27
-Version: 1.1
 """
 
 # Import packages
@@ -12,7 +11,7 @@ from pathlib import Path
 from title_generator import TitleGen
 
 # Current program version
-current_version = 1.1
+current_version = 1.3
 
 
 def extract_kw(line):
@@ -229,7 +228,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # Synonyms of username
-    user_syn = ["user", "username", "login", "email", "id"]
+    user_syn = ["user", "username", "login", "email", "email address", "id"]
     user_syn.extend(args.user_syn)
     user_syn = list_lower(user_syn)
 
