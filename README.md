@@ -109,10 +109,10 @@
  - Added CLI menu
  - Custom filename for output
  
-##### Version 1.2 - Small Update
+#### Version 1.2 - Small Update
  - Changed formatting for results to _user_::_pass_::_file_
  
-##### Version 1.3 - Unix compatibility
+#### Version 1.3 - Unix compatibility
   - Updated requirements.txt for Unix support
   - Error testing in Unix
 
