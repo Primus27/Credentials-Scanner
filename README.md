@@ -92,9 +92,9 @@
 
 ### Starter commands
  - Run detailed scan
-    - `scanner.py -s SCAN_PATH -x`
+    - `python3 scanner.py -s SCAN_PATH -x`
  - Run detailed scan with file output
-    - `scanner.py -s SCAN_PATH -x -f -n FILENAME.txt`
+    - `python3 scanner.py -s SCAN_PATH -x -f -n FILENAME.txt`
 
 ## Changelog
 #### Version 1.0 - Initial release
